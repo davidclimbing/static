@@ -1,6 +1,11 @@
 .header {
   height: 60px;
-  background-color: gray;
+  background-color: white;
+  border-bottom: 1px gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: center flex-start;
 
   &__wrap {
     display: flex;
